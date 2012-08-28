@@ -1,0 +1,151 @@
+#main .topic1{
+	font-size:1.4em;
+	font-weight:normal;
+}
+.widgets{
+	background: url('widgets.png') no-repeat ;
+}
+.banners{
+	background: url('banners.png') no-repeat ;
+}
+.buttons{
+	background: url('buttons.png') no-repeat;
+}
+
+/*------------------- Font Color --------------------*/
+#header,
+#sidebar1 .list li a,
+#main #product .topic1 a,
+.footer,
+.footer a,
+.footer .copyright a:hover,
+#sidebar1 .logged_in li a,
+#main .column li a{
+	color:#444;
+}
+.fl,
+#main .padding a,
+#header a,
+.topbar a,
+#blog .author,
+#article .author,
+#discussion .breadcrumb a,
+#main .column .bullets small,
+#comments li .meta span{
+	color:#777;
+}
+#header .nav2 li a,
+#sidebar1 .account .button,
+#sidebar1 .account .signup,
+#discussion .listing th,
+#cart .items th,
+#collection .subcategory a,
+#header .cart_status a{
+	color:#fff;	
+}
+#sidebar1 .nav-left .active a,
+#frontpage .column .topic2,
+#sidebar1 .logged_in,
+#sidebar1 .logged_in li a:hover,
+#header a:hover,
+#header .logo_wrapper .site_name,
+.topbar a:hover,
+#sidebar1 .topic2,
+#sidebar1 .stats dd,
+#main .topic1,
+#collection .grid .price,
+.footer a:hover,
+#sidebar1 .list li a:hover,
+#main .column li a:hover{
+	color:#ff6d94;
+}
+#collection .grid a:hover .view,
+#discussion .breadcrumb a:hover,
+#header .nav2 a:hover,
+#main .padding a:hover,
+#blog .excerpt a,
+#discussion .message a,
+#collection .subcategory a:hover,
+#header .cart_status a:hover{
+	color:#521b1b;
+}
+#collection .grid a .view{
+	color:#fff;
+}
+/*------------------- Background Color --------------------*/
+#sidebar1 .account .logged_in h2,
+#collection .subcategory a:hover{
+  background-color:#fff;
+}
+#header .nav2 a:hover{
+	background-color:#fff;
+	-moz-border-radius-topleft:10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-radius-topleft: 10px;
+  -webkit-border-radius-topright:10px;
+  -border-radius-topleft: 10px;
+  -border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#header .nav2{
+	background-color:#521b1b;
+	-moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -border-radius: 30px;
+  border-radius: 30px;
+}
+#collection .subcategory a{
+	-moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -border-radius: 15px;
+  border-radius: 15px;
+}
+#collection .buy a .view,
+#discussion .page .padding,
+#comments li .meta{
+	-moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -border-radius: 20px;
+  border-radius: 20px;
+}
+#discussion .page .padding,
+#comments li .meta{
+	background-color:whitesmoke;	
+}
+#discussion .listing th,
+#cart .items th,
+#collection .subcategory a,
+#collection .grid a .view{
+  background-color:#521b1b;
+}
+#discussion .listing .hover{
+  background-color:whitesmoke;	
+}
+#sidebar1 .account .button{
+  background-color:#ff789c;		
+}
+#sidebar1 .account .signup{
+  background-color:#521b1b;	
+}
+#sidebar1 .account .signup:hover,
+#collection .grid a:hover .view{
+  background-color:#ba8383;	
+}
+/*------------------- Border Color --------------------*/
+#sidebar1 .list li,
+#discussion .listing td,
+#blog .padding li,
+#main .column ul li{
+	border-bottom:1px dotted #521b1b;
+}
+#message .padding{
+	border:2px dotted #521b1b;
+	-moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -border-radius: 20px;
+  border-radius: 20	px;	
+}
+.footer{
+	border-top:2px dotted #521b1b;	
+}
