@@ -94,11 +94,15 @@
   -border-radius: 30px;
   border-radius: 30px;
 }
-#collection .subcategory a{
+#collection .subcategory a,
+#collection .subcategory a:hover{
 	-moz-border-radius: 15px;
   -webkit-border-radius: 15px;
   -border-radius: 15px;
   border-radius: 15px;
+}
+#collection .subcategory a:hover{
+	background-color:#e9e9e9;	
 }
 #collection .buy a .view,
 #discussion .page .padding,
